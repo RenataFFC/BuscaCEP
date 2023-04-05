@@ -54,8 +54,8 @@ setInput("")
 
                                 <span>{cep.logradouro}</span>
                                 <span>Complemento:{cep.complemento}</span>
-                                <span>{cep.bairro}</span>
-                                <span> {cep.cidade} - {cep.uf}</span>
+                                <span>Bairro:{cep.bairro}</span>
+                                <span> Cidade:{cep.cidade} - Estado:{cep.uf}</span>
                             </main>
 
                 )}

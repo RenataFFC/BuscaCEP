@@ -51,11 +51,10 @@ setInput("")
    
                 <main className='main'>
                                 <h2>CEP:{cep.cep}</h2>
-
                                 <span>{cep.logradouro}</span>
                                 <span>Complemento: {cep.complemento}</span>
                                 <span>Bairro: {cep.bairro}</span>
-                                <span> Cidade: {cep.cidade}-{cep.uf}</span>
+                                <span> Cidade: {cep.localidade}-{cep.uf}</span>
                             </main>
 
                 )}
